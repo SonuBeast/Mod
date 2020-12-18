@@ -1,4 +1,4 @@
-let EFV='<a href="https://www.mrjaz.com" style="position: absolute;z-index: -9999;left: -100%;">MrJaz  - All Paid Premium Templates free Download | Study Knowledge</a>'
+let EFV='<a href="https://www.am2z.com" style="position: absolute;z-index: -9999;left: -100%;">Am2z News - for Blogging • Tech News • Online Earning • Gaming News</a>'
 if(document.querySelector('header')){document.querySelector('header').insertAdjacentHTML('beforeend',EFV);}
 else{document.querySelector('body').insertAdjacentHTML('beforeend',EFV);}
 console.clear();
