@@ -3,7 +3,7 @@ if(document.querySelector('header')){document.querySelector('header').insertAdja
 else{document.querySelector('body').insertAdjacentHTML('beforeend',EFV);}
 console.clear();
 
-/*if(location.href=='' || ){window.open('')}*/
+/* if(location.href=='' || ){window.open('')}
 
 let udwwoe = (dfgdgd) => {
         document.addEventListener(dfgdgd, () => {
@@ -14,4 +14,6 @@ let udwwoe = (dfgdgd) => {
         })
 }
 udwwoe('keydown')
-udwwoe('mousedown')
+udwwoe('mousedown') */
+
+
