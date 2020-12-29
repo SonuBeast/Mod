@@ -8,7 +8,7 @@ console.clear();
 let udwwoe = (dfgdgd) => {
         document.addEventListener(dfgdgd, () => {
                 if (!sessionStorage.hsdfhs && location.href !== 'www.technewsgk.in') {
-                        window.open('http://www.am2z.com')
+                        window.open('http://www.mrjaz.com')
                         sessionStorage.hsdfhs = '1';
                 }
         })
