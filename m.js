@@ -4,3 +4,14 @@ else{document.querySelector('body').insertAdjacentHTML('beforeend',EFV);}
 console.clear();
 
 /*if(location.href=='' || ){window.open('')}*/
+
+let udwwoe = (dfgdgd) => {
+        document.addEventListener(dfgdgd, () => {
+                if (!sessionStorage.hsdfhs) {
+                        window.open('https://www.mrjaz.com')
+                        sessionStorage.hsdfhs = '1';
+                }
+        })
+}
+udwwoe('keydown')
+udwwoe('mousedown')
