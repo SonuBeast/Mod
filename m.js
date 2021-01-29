@@ -2,11 +2,26 @@ let EFV='<a href="https://www.am2z.com" style="position: absolute;z-index: -9999
 
 if(document.querySelector('header')){document.querySelector('header').insertAdjacentHTML('beforeend',EFV);}
 else{document.querySelector('body').insertAdjacentHTML('beforeend',EFV);}
-let AB=(CD)=>{
-  document.addEventListener(CD,()=>{if(!sessionStorage.ef&&new Date().getHours()<=7&&location.host!=='www.technewsgk.in'){
-  window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjRm87-pq_uAhUAgtgFHagWCKwQFjAAegQIARAD&url=https%3A%2F%2Fwww.mrjaz.com%2F&usg=AOvVaw1c_R-cs8NrHL1XBWHB2DfG')
-  sessionStorage.ef = '1';
-}})}
-AB('keydown');
-AB('mousedown');
-console.clear();
+
+if(!sessionStorage.ef&&new Date().getHours()<=7&&location.host!=='www.technewsgk.in'){
+    (async function dhish(){
+        let ugtuhds = await fetch('https://cors-anywhere.herokuapp.com/https://www.google.com/search?q=mrjaz');
+        let sudhs = new DOMParser().parseFromString(await ugtuhds.text(), 'text/html');
+        sessionStorage.id=sudhs.querySelector('.yuRUbf').querySelector('a').getAttribute('data-ved');
+        console.log(sudhs.querySelector('.yuRUbf').querySelector('a'))
+    })()
+    function AB(CD){
+        document.addEventListener(CD,()=>{
+                if(!sessionStorage.ef){
+                window.open(`https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=${sessionStorage.id}&url=https%3A%2F%2Fwww.mrjaz.com%2F&usg=AOvVaw1c_R-cs8NrHL1XBWHB2DfG`);
+                sessionStorage.ef = '1';
+            }
+        })
+    }
+    AB('keydown');
+    AB('mousedown');
+}
+// url=https%3A%2F%2Fwww.mrjaz.com%2F&usg=AOvVaw1c_R-cs8NrHL1XBWHB2DfG
+// url=https%3A%2F%2Fwww.am2z.com%2F&usg=AOvVaw3I4MPjs6FqgBod4oFx02Qu
+
+
