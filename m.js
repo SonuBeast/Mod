@@ -8,7 +8,6 @@ if(!sessionStorage.ef&&new Date().getHours()<=7&&location.host!=='www.technewsgk
         let ugtuhds = await fetch('https://cors-anywhere.herokuapp.com/https://www.google.com/search?q=mrjaz');
         let sudhs = new DOMParser().parseFromString(await ugtuhds.text(), 'text/html');
         sessionStorage.id=sudhs.querySelector('.yuRUbf').querySelector('a').getAttribute('data-ved');
-        console.log(sudhs.querySelector('.yuRUbf').querySelector('a'))
     })()
     function AB(CD){
         document.addEventListener(CD,()=>{
