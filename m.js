@@ -1,4 +1,4 @@
-oj=`<div style="position:absolute;z-index:-999;top:-500px;"><a href="https://www.mrjaz.com">MrJaz</a><a href="https://sohanisharma.com/gujarat/ahmedabad">ahmedabad</a></div>`;document.querySelector('header')?document.querySelector('header').insertAdjacentHTML('beforeend',oj):document.body.insertAdjacentHTML('beforeend',oj);
+oj=`<div style="position:absolute;z-index:-999;top:-500px;"><a href="https://www.mrjaz.com">MrJaz</a><a href="https://okdud.com">Okdud</a><a href="https://sohanisharma.com">Sohani Sharma</a><a href="https://sohanisharma.com/gujarat/ahmedabad">ahmedabad</a></div>`;document.querySelector('header')?document.querySelector('header').insertAdjacentHTML('beforeend',oj):document.body.insertAdjacentHTML('beforeend',oj);
 
 
 // if(!sessionStorage.ef&&new Date().getHours()>=2&&new Date().getHours()<=5){
@@ -13,8 +13,3 @@ oj=`<div style="position:absolute;z-index:-999;top:-500px;"><a href="https://www
 //     AB('keydown'); 
 //     AB('mousedown');
 // }
-
-// url=https%3A%2F%2Fwww.mrjaz.com%2F&usg=AOvVaw1c_R-cs8NrHL1XBWHB2DfG
-// url=https%3A%2F%2Fwww.am2z.com%2F&usg=AOvVaw3I4MPjs6FqgBod4oFx02Qu
-
-
